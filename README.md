@@ -34,6 +34,7 @@ myfile_CU.close();
 To generate TU depth string：
 ```
 ofstream myfile_TU;
+string TU_file_name = "TU_file_name";
 myfile_TU.open(TU_file_name);
 for (UInt ctuRsAddr = 0; ctuRsAddr < pcPic->getNumberOfCtusInFrame(); ctuRsAddr++)
 {
